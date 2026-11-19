@@ -1,0 +1,22 @@
+[project]
+name = "python-for-algorithmic-trading-cookbook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shreyas", email = "847781+seekshreyas@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb>=2.0.0",
+    "jupyter>=1.1.1",
+    "marimo>=0.25.2",
+    "pandas>=3.1.1",
+]
+
+[project.scripts]
+python-for-algorithmic-trading-cookbook = "python_for_algorithmic_trading_cookbook:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
